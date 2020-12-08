@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MyApplication.AppBarOverlay">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:contentDescription="@string/todo"
+        app:fabCustomSize="100sp"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/btnRED"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:text="@string/red"
+        android:textColor="#F3ECEC"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:translationX="80dp"
+        android:translationY="350dp" />
+
+    <Button
+        android:id="@+id/btnBLUE"
+        android:layout_width="100sp"
+        android:layout_height="93dp"
+        android:text="@string/blue"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:translationX="250dp"
+        android:translationY="350dp" />
+
+    <Button
+        android:id="@+id/btnRESET"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:text="@string/reset"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:translationX="140dp"
+        android:translationY="480dp"
+        tools:text="Reset" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
